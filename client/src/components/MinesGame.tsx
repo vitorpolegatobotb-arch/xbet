@@ -477,7 +477,7 @@ export function MinesGame({ betAmount, onBet, onResult, isLoading = false, gameT
           </div>
           <div className="bg-gray-800/50 rounded-lg border border-green-500/30 p-2">
             <p className="text-xs font-bold text-green-300 mb-1">ABERTOS</p>
-            <p className="text-sm font-bold text-green-300">{gameState.squaresRevealed}/17</p>
+            <p className="text-sm font-bold text-green-300">{gameState.squaresRevealed}/20</p>
           </div>
           <div className="bg-gray-800/50 rounded-lg border border-cyan-500/30 p-2">
             <p className="text-xs font-bold text-cyan-300 mb-1">MULTIPLICADOR</p>
@@ -560,7 +560,7 @@ export function MinesGame({ betAmount, onBet, onResult, isLoading = false, gameT
       <div className="card-neon mt-6">
         <h3 className="text-lg font-orbitron font-bold mb-3 neon-text">📋 Como Jogar</h3>
         <ul className="text-sm text-gray-300 space-y-2">
-          <li>• Tabuleiro fixo: 5x5 com 8 minas fixas (17 quadrados seguros)</li>
+          <li>• Tabuleiro fixo: 5x5 com 5 minas aleatórias (20 quadrados seguros)</li>
           <li>• Cada quadrado aberto = +0.25x ao multiplicador</li>
           <li>• Defina o valor da aposta</li>
           <li>• Clique em COMEÇAR para iniciar</li>
