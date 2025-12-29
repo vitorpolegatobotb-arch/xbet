@@ -46,7 +46,7 @@ interface MinesGameProps {
 // Função para gerar 8 posições de minas aleatórias e únicas em um tabuleiro 5x5 (25 quadrados)
 const generateRandomMinePositions = (): number[] => {
   const totalSquares = 25;
-  const numMines = 8;
+  const numMines = 5;
   const positions = Array.from({ length: totalSquares }, (_, i) => i);
   
   // Algoritmo de Fisher-Yates (shuffle) e pega os primeiros 'numMines'
